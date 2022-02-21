@@ -12,8 +12,8 @@ class CarSingleton {
   }
 }
 
-void main(List<String> arguments) {
-  var car = CarSingleton.getInstance();
+void main() {
+  CarSingleton car = CarSingleton.getInstance();
   print(car.name);
 
   car.name = 'Bolid F1';
